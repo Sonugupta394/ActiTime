@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="221.403" tests="4" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\LENOVO\eclipse-workspace\ActiTime\target\test-classes;C:\Users\LENOVO\eclipse-workspace\ActiTime\target\classes;C:\Users\LENOVO\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\LENOVO\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\LENOVO\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\LENOVO\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\LENOVO\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\LENOVO\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\LENOVO\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\LENOVO\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\LENOVO\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\LENOVO\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\LENOVO\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\LENOVO\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\LENOVO\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\LENOVO\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\LENOVO\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\LENOVO\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\LENOVO\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\LENOVO\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar;C:\Users\LENOVO\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\LENOVO\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar;C:\Users\LENOVO\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar;C:\Users\LENOVO\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\LENOVO\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\LENOVO\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\LENOVO\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\LENOVO\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\LENOVO\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\LENOVO\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\LENOVO\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\mongo-java-driver\2.10.1\mongo-java-driver-2.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_66\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\LENOVO\AppData\Local\Temp\surefire7967407374644164483\surefirebooter1580955038549525681.jar C:\Users\LENOVO\AppData\Local\Temp\surefire7967407374644164483 2020-04-29T19-12-14_718-jvmRun1 surefire3423424222550270394tmp surefire_06754473074051691528tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\LENOVO\eclipse-workspace\ActiTime\target\test-classes;C:\Users\LENOVO\eclipse-workspace\ActiTime\target\classes;C:\Users\LENOVO\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\LENOVO\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\LENOVO\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\LENOVO\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\LENOVO\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\LENOVO\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\LENOVO\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\LENOVO\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\LENOVO\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\LENOVO\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\LENOVO\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\LENOVO\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\LENOVO\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\LENOVO\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\LENOVO\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\LENOVO\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\LENOVO\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\LENOVO\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar;C:\Users\LENOVO\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\LENOVO\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar;C:\Users\LENOVO\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar;C:\Users\LENOVO\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\LENOVO\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\LENOVO\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\LENOVO\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\LENOVO\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\LENOVO\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\LENOVO\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\LENOVO\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\mongo-java-driver\2.10.1\mongo-java-driver-2.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\LENOVO"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_66\jre"/>
+    <property name="basedir" value="C:\Users\LENOVO\eclipse-workspace\ActiTime"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\LENOVO\AppData\Local\Temp\surefire7967407374644164483\surefirebooter1580955038549525681.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_66\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_66\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_66-b17"/>
+    <property name="user.name" value="LENOVO"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_66\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\LENOVO\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\LENOVO\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_66"/>
+    <property name="user.dir" value="C:\Users\LENOVO\eclipse-workspace\ActiTime"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="C:\Users\LENOVO\eclipse-workspace\ActiTime//drivers//geckodriver.exe"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_66\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_241/bin/server;C:/Program Files/Java/jre1.8.0_241/bin;C:/Program Files/Java/jre1.8.0_241/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;E:\oracle\product\10.2.0\db_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_66\bin;C:\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Users\LENOVO\AppData\Roaming\npm;C:\Users\LENOVO\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.66-b17"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testcreateCustomer_TC001" classname="com.ActiTime_Customer_scripts.createCustomer_TC001" time="46.779">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+]]></failure>
+    <system-out><![CDATA[04-29-2020 19:13:00 baseClass.java INFO  [main] ActiTime_utilities.baseClass 49 - *****Firefox Browser is opened*****
+04-29-2020 19:13:04 baseClass.java INFO  [main] ActiTime_utilities.baseClass 74 - *****Login is Successful*****
+]]></system-out>
+    <system-err><![CDATA[1588167742686	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\LENOVO\\AppData\\Local\\Temp\\rust_mozprofile.7EHBMVcVmNzB"
+1588167750351	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1588167755261	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1588167755262	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1588167755263	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1588167755269	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1588167755994	Marionette	TRACE	Received observer notification profile-after-change
+1588167756570	Marionette	TRACE	Received observer notification toplevel-window-ready
+1588167756870	Marionette	TRACE	Received observer notification command-line-startup
+1588167756871	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1588167757147	Marionette	TRACE	Received observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1588167768054	Marionette	TRACE	Received observer notification marionette-startup-requested
+1588167768055	Marionette	TRACE	GFX sanity window detected, waiting until it has been closed...
+1588167778881	Marionette	TRACE	Received observer notification domwindowclosed
+1588167778882	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1588167779028	Marionette	TRACE	All scripts recorded.
+1588167779030	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1588167779031	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1588167779032	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1588167779033	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1588167779037	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1588167779039	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1588167779040	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1588167779041	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1588167779042	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1588167779042	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1588167779043	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1588167779045	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1588167779046	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1588167779050	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1588167779051	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1588167779052	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1588167779053	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1588167779054	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1588167779055	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1588167779058	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1588167779058	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1588167779059	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1588167779060	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1588167779060	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1588167779061	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1588167779061	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1588167779062	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1588167779062	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1588167779064	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1588167779066	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1588167779069	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1588167779234	Marionette	INFO	Listening on port 49775
+1588167779235	Marionette	DEBUG	Marionette is listening
+1588167779614	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:49817
+1588167779727	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1588167779731	Marionette	WARN	TLS certificate errors will be ignored for this session
+1588167779819	Marionette	TRACE	[20] Frame script loaded
+1588167779837	Marionette	TRACE	[26] Frame script loaded
+1588167779848	Marionette	TRACE	[26] Frame script registered
+1588167779879	Marionette	TRACE	[20] Frame script registered
+1588167779899	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"1200f806-643f-4098-823d-47152923e891","capabilities":{"browserName":"firefox","browserVersion":"75.0" ... ozprofile.7EHBMVcVmNzB","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+Apr 29, 2020 7:13:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1588167780425	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"http://127.0.0.1:81/login.do"}]
+1588167780460	Marionette	TRACE	[20] Received DOM event beforeunload for about:blank
+1588167780550	Marionette	TRACE	[20] Received DOM event pagehide for about:blank
+1588167781966	Marionette	TRACE	[20] Received DOM event DOMContentLoaded for http://127.0.0.1:81/login.do
+1588167782002	Marionette	TRACE	[20] Received DOM event pageshow for http://127.0.0.1:81/login.do
+1588167782006	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1588167782235	Marionette	DEBUG	0 -> [0,3,"WebDriver:SetTimeouts",{"implicit":30000}]
+1588167782236	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1588167782267	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElement",{"using":"css selector","value":"*[name='username']"}]
+1588167782280	Marionette	DEBUG	0 <- [1,4,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"555557c5-03b3-46c5-a403-16c31d82e6bd"}}]
+1588167782338	Marionette	DEBUG	0 -> [0,5,"WebDriver:ElementSendKeys",{"id":"555557c5-03b3-46c5-a403-16c31d82e6bd","text":"admin","value":["a","d","m","i","n"]}]
+1588167782372	Marionette	DEBUG	0 <- [1,5,null,{"value":null}]
+1588167782390	Marionette	DEBUG	0 -> [0,6,"WebDriver:FindElement",{"using":"css selector","value":"*[name='pwd']"}]
+1588167782399	Marionette	DEBUG	0 <- [1,6,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a6f108df-66d6-4eb3-9ca2-e38b075cbb10"}}]
+1588167782409	Marionette	DEBUG	0 -> [0,7,"WebDriver:ElementSendKeys",{"id":"a6f108df-66d6-4eb3-9ca2-e38b075cbb10","text":"manager","value":["m","a","n","a","g","e","r"]}]
+1588167782440	Marionette	DEBUG	0 <- [1,7,null,{"value":null}]
+1588167782479	Marionette	DEBUG	0 -> [0,8,"WebDriver:FindElement",{"using":"xpath","value":"//input[@type='submit']"}]
+1588167782555	Marionette	DEBUG	0 <- [1,8,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"0003db26-e7de-4b23-8f8b-7a841e73d9bb"}}]
+1588167782577	Marionette	DEBUG	0 -> [0,9,"WebDriver:ElementClick",{"id":"0003db26-e7de-4b23-8f8b-7a841e73d9bb"}]
+1588167782651	Marionette	TRACE	[20] Received DOM event beforeunload for http://127.0.0.1:81/login.do
+1588167782863	Marionette	TRACE	[20] Received DOM event pagehide for http://127.0.0.1:81/login.do
+1588167782866	Marionette	TRACE	[20] Received DOM event unload for http://127.0.0.1:81/login.do
+1588167783830	Marionette	TRACE	[20] Received DOM event DOMContentLoaded for http://127.0.0.1:81/tasks/otasklist.do
+1588167784199	Marionette	TRACE	[20] Received DOM event pageshow for http://127.0.0.1:81/tasks/otasklist.do
+1588167784203	Marionette	DEBUG	0 <- [1,9,null,{"value":null}]
+1588167784412	Marionette	DEBUG	0 -> [0,10,"WebDriver:TakeScreenshot",{"full":false,"highlights":[],"id":null}]
+1588167784882	Marionette	DEBUG	0 <- [1,10,null,{"value":"iVBORw0KGgoAAAANSUhEUgAABVYAAAKOCAYAAABN80LeAAAgAElEQVR4nOy9a5Qb1Z326w98PWu9X88XDAkzCZmsicNx3kC4zYS1JoFk ... 7aXwhpmIuW+yalniGl1Domdy/spRFMvcyYLXbckH2pZa/Hvx/Lv//wub7/8LkTdtof2zehaDdY7TvOvj12XGpzOJ8BYIr/A1E5YkZh4lS9AAAAAElFTkSuQmCC"}]
+]]></system-err>
+  </testcase>
+  <testcase name="testCreateProject_TC002" classname="com.ActiTime_Project_scripts.createProject_TC002" time="34.646">
+    <failure message="Unable to locate element: .successmsg&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-32VMDLN&apos;, ip: &apos;192.168.129.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_66&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200313021419, moz:geckodriverVersion: 0.22.0, moz:headless: false, moz:processID: 2348, moz:profile: C:\Users\LENOVO\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 123e25cc-9aa5-4eb7-b99f-992471b966ae&#10;*** Element info: {Using=class name, value=successmsg}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .successmsg
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-32VMDLN', ip: '192.168.129.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200313021419, moz:geckodriverVersion: 0.22.0, moz:headless: false, moz:processID: 2348, moz:profile: C:\Users\LENOVO\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 123e25cc-9aa5-4eb7-b99f-992471b966ae
+*** Element info: {Using=class name, value=successmsg}
+	at com.ActiTime_Project_scripts.createProject_TC002.testCreateProject_TC002(createProject_TC002.java:37)
+]]></failure>
+    <system-out><![CDATA[04-29-2020 19:13:05 baseClass.java INFO  [main] ActiTime_utilities.baseClass 82 - *****Logout is successful*****
+04-29-2020 19:13:12 baseClass.java INFO  [main] ActiTime_utilities.baseClass 63 - ***** Browser is Closed*****
+04-29-2020 19:13:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:13:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+04-29-2020 19:13:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+04-29-2020 19:13:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+04-29-2020 19:13:13 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+04-29-2020 19:13:14 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:13:14 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+04-29-2020 19:13:14 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+04-29-2020 19:13:14 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+04-29-2020 19:13:14 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:13:14 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+04-29-2020 19:13:14 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+04-29-2020 19:13:14 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+04-29-2020 19:13:14 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:13:14 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+04-29-2020 19:13:14 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+04-29-2020 19:13:14 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+04-29-2020 19:13:25 baseClass.java INFO  [main] ActiTime_utilities.baseClass 49 - *****Firefox Browser is opened*****
+04-29-2020 19:13:30 baseClass.java INFO  [main] ActiTime_utilities.baseClass 74 - *****Login is Successful*****
+04-29-2020 19:13:32 createProject_TC002.java INFO  [main] ActiTime_utilities.baseClass 22 - *****ProjectAndCustomerlink is clicked*****
+04-29-2020 19:13:33 createProject_TC002.java INFO  [main] ActiTime_utilities.baseClass 26 - *****AddNewProjectButton is clicked*****
+04-29-2020 19:13:33 createProject_TC002.java INFO  [main] ActiTime_utilities.baseClass 30 - *****CustomerName is selected*****
+04-29-2020 19:13:33 createProject_TC002.java INFO  [main] ActiTime_utilities.baseClass 33 - *****ProjectName is entered*****
+04-29-2020 19:13:34 createProject_TC002.java INFO  [main] ActiTime_utilities.baseClass 36 - *****CreateProjectButton is clicked*****
+]]></system-out>
+    <system-err><![CDATA[1588167785024	Marionette	DEBUG	0 -> [0,11,"WebDriver:FindElement",{"using":"css selector","value":".logoutImg"}]
+1588167785034	Marionette	DEBUG	0 <- [1,11,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"47cc47ce-1800-4893-92cd-ad3324c16530"}}]
+1588167785048	Marionette	DEBUG	0 -> [0,12,"WebDriver:ElementClick",{"id":"47cc47ce-1800-4893-92cd-ad3324c16530"}]
+1588167785077	Marionette	TRACE	[20] Received DOM event beforeunload for http://127.0.0.1:81/tasks/otasklist.do
+1588167785125	Marionette	TRACE	[20] Received DOM event pagehide for http://127.0.0.1:81/tasks/otasklist.do
+1588167785128	Marionette	TRACE	[20] Received DOM event unload for http://127.0.0.1:81/tasks/otasklist.do
+1588167785344	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167785351	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167785354	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167785359	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167785370	Marionette	TRACE	[20] Received DOM event DOMContentLoaded for http://127.0.0.1:81/login.do
+1588167785386	Marionette	TRACE	[20] Received DOM event pageshow for http://127.0.0.1:81/login.do
+1588167785390	Marionette	DEBUG	0 <- [1,12,null,{"value":null}]
+1588167785414	Marionette	DEBUG	0 -> [0,13,"WebDriver:CloseWindow",{}]
+1588167785415	Marionette	DEBUG	0 <- [1,13,null,[]]
+1588167785418	Marionette	DEBUG	0 -> [0,14,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1588167785419	Marionette	INFO	Stopped listening on port 49775
+1588167786636	Marionette	TRACE	Received observer notification quit-application
+1588167786646	Marionette	DEBUG	0 <- [1,14,null,{"cause":"shutdown"}]
+1588167786879	Marionette	DEBUG	Closed connection 0
+1588167790680	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1588167790680	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1588167790680	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1588167790681	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1588167790681	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1588167790699	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1588167790701	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1588167790704	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1588167790709	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1588167790711	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1588167790712	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1588167790712	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1588167790713	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1588167790713	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1588167790718	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1588167790718	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1588167790719	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1588167790719	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1588167790720	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1588167790720	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1588167790725	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1588167790725	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1588167790726	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1588167790726	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1588167790726	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1588167790726	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1588167790726	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1588167790727	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1588167790728	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1588167790728	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1588167790729	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1588167790731	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1588167790734	Marionette	DEBUG	Marionette stopped listening
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1588167795835	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\LENOVO\\AppData\\Local\\Temp\\rust_mozprofile.6jPDNzVGXyFa"
+1588167797656	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1588167800989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1588167800989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1588167800990	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1588167800990	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1588167801161	Marionette	TRACE	Received observer notification profile-after-change
+1588167801431	Marionette	TRACE	Received observer notification toplevel-window-ready
+1588167801513	Marionette	TRACE	Received observer notification command-line-startup
+1588167801513	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1588167801621	Marionette	TRACE	Received observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1588167805562	Marionette	TRACE	Received observer notification marionette-startup-requested
+1588167805563	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1588167805611	Marionette	TRACE	All scripts recorded.
+1588167805612	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1588167805612	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1588167805613	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1588167805613	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1588167805614	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1588167805614	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1588167805615	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1588167805615	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1588167805616	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1588167805616	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1588167805616	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1588167805617	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1588167805617	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1588167805618	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1588167805618	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1588167805619	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1588167805619	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1588167805620	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1588167805620	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1588167805620	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1588167805621	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1588167805621	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1588167805622	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1588167805622	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1588167805622	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1588167805623	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1588167805623	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1588167805624	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1588167805625	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1588167805625	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1588167805626	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1588167805771	Marionette	INFO	Listening on port 49831
+1588167805771	Marionette	DEBUG	Marionette is listening
+1588167805826	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:49844
+1588167805829	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1588167805830	Marionette	WARN	TLS certificate errors will be ignored for this session
+1588167805905	Marionette	TRACE	[20] Frame script loaded
+1588167805913	Marionette	TRACE	[20] Frame script registered
+1588167805926	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"123e25cc-9aa5-4eb7-b99f-992471b966ae","capabilities":{"browserName":"firefox","browserVersion":"75.0" ... ozprofile.6jPDNzVGXyFa","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+Apr 29, 2020 7:13:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1588167805968	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"http://127.0.0.1:81/login.do"}]
+1588167805987	Marionette	TRACE	[20] Received DOM event beforeunload for about:blank
+1588167806046	Marionette	TRACE	[20] Received DOM event pagehide for about:blank
+1588167808268	Marionette	TRACE	[20] Received DOM event DOMContentLoaded for http://127.0.0.1:81/login.do
+1588167808324	Marionette	TRACE	[20] Received DOM event pageshow for http://127.0.0.1:81/login.do
+1588167808418	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1588167808644	Marionette	DEBUG	0 -> [0,3,"WebDriver:SetTimeouts",{"implicit":30000}]
+1588167808645	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1588167808720	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElement",{"using":"css selector","value":"*[name='username']"}]
+1588167808738	Marionette	DEBUG	0 <- [1,4,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d7984e49-957a-4ece-9912-1077627ecfcc"}}]
+1588167808767	Marionette	DEBUG	0 -> [0,5,"WebDriver:ElementSendKeys",{"id":"d7984e49-957a-4ece-9912-1077627ecfcc","text":"admin","value":["a","d","m","i","n"]}]
+1588167808812	Marionette	DEBUG	0 <- [1,5,null,{"value":null}]
+1588167808823	Marionette	DEBUG	0 -> [0,6,"WebDriver:FindElement",{"using":"css selector","value":"*[name='pwd']"}]
+1588167808829	Marionette	DEBUG	0 <- [1,6,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f54d4913-0f63-4ae4-abdc-e34967fbcda6"}}]
+1588167808840	Marionette	DEBUG	0 -> [0,7,"WebDriver:ElementSendKeys",{"id":"f54d4913-0f63-4ae4-abdc-e34967fbcda6","text":"manager","value":["m","a","n","a","g","e","r"]}]
+1588167808876	Marionette	DEBUG	0 <- [1,7,null,{"value":null}]
+1588167808894	Marionette	DEBUG	0 -> [0,8,"WebDriver:FindElement",{"using":"xpath","value":"//input[@type='submit']"}]
+1588167808901	Marionette	DEBUG	0 <- [1,8,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c1e582a1-2f39-4a60-958c-835198966cd4"}}]
+1588167808911	Marionette	DEBUG	0 -> [0,9,"WebDriver:ElementClick",{"id":"c1e582a1-2f39-4a60-958c-835198966cd4"}]
+1588167808984	Marionette	TRACE	[20] Received DOM event beforeunload for http://127.0.0.1:81/login.do
+1588167809271	Marionette	TRACE	[20] Received DOM event pagehide for http://127.0.0.1:81/login.do
+1588167809274	Marionette	TRACE	[20] Received DOM event unload for http://127.0.0.1:81/login.do
+1588167810592	Marionette	TRACE	[20] Received DOM event DOMContentLoaded for http://127.0.0.1:81/tasks/otasklist.do
+1588167810644	Marionette	TRACE	[20] Received DOM event pageshow for http://127.0.0.1:81/tasks/otasklist.do
+1588167810646	Marionette	DEBUG	0 <- [1,9,null,{"value":null}]
+1588167810811	Marionette	DEBUG	0 -> [0,10,"WebDriver:FindElement",{"using":"link text","value":"Projects & Customers"}]
+1588167810940	Marionette	DEBUG	0 <- [1,10,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"206c8ee5-01ae-4056-afa3-21f02e115ab5"}}]
+1588167810949	Marionette	DEBUG	0 -> [0,11,"WebDriver:ElementClick",{"id":"206c8ee5-01ae-4056-afa3-21f02e115ab5"}]
+1588167810979	Marionette	TRACE	[20] Received DOM event beforeunload for http://127.0.0.1:81/tasks/otasklist.do
+1588167811936	Marionette	TRACE	[20] Received DOM event pagehide for http://127.0.0.1:81/tasks/otasklist.do
+1588167811940	Marionette	TRACE	[20] Received DOM event unload for http://127.0.0.1:81/tasks/otasklist.do
+1588167812235	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167812239	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167812244	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167812246	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167812420	Marionette	TRACE	[20] Received DOM event DOMContentLoaded for http://127.0.0.1:81/project/customers_projects.do
+1588167812478	Marionette	TRACE	[20] Received DOM event pageshow for http://127.0.0.1:81/project/customers_projects.do
+1588167812483	Marionette	DEBUG	0 <- [1,11,null,{"value":null}]
+1588167812529	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElement",{"using":"xpath","value":"//input[@value='Add New Project']"}]
+1588167812549	Marionette	DEBUG	0 <- [1,12,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"eb9959e5-774d-4920-9938-2e41abbbac19"}}]
+1588167812563	Marionette	DEBUG	0 -> [0,13,"WebDriver:ElementClick",{"id":"eb9959e5-774d-4920-9938-2e41abbbac19"}]
+1588167812596	Marionette	TRACE	[20] Received DOM event beforeunload for http://127.0.0.1:81/project/customers_projects.do
+1588167812891	Marionette	TRACE	[20] Received DOM event pagehide for http://127.0.0.1:81/project/customers_projects.do
+1588167812893	Marionette	TRACE	[20] Received DOM event unload for http://127.0.0.1:81/project/customers_projects.do
+1588167813099	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167813100	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167813101	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167813192	Marionette	TRACE	[20] Received DOM event DOMContentLoaded for http://127.0.0.1:81/project/projectadd.do?resetForm=true&customerId=0
+1588167813320	Marionette	TRACE	[20] Received DOM event pageshow for http://127.0.0.1:81/project/projectadd.do?resetForm=true&customerId=0
+1588167813327	Marionette	DEBUG	0 <- [1,13,null,{"value":null}]
+1588167813413	Marionette	DEBUG	0 -> [0,14,"WebDriver:FindElement",{"using":"css selector","value":"*[name='customerId']"}]
+1588167813418	Marionette	DEBUG	0 <- [1,14,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7872ed21-f043-4cac-8c76-371847fa1b07"}}]
+1588167813426	Marionette	DEBUG	0 -> [0,15,"WebDriver:GetElementTagName",{"id":"7872ed21-f043-4cac-8c76-371847fa1b07"}]
+1588167813430	Marionette	DEBUG	0 <- [1,15,null,{"value":"select"}]
+1588167813438	Marionette	DEBUG	0 -> [0,16,"WebDriver:FindElement",{"using":"css selector","value":"*[name='customerId']"}]
+1588167813444	Marionette	DEBUG	0 <- [1,16,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7872ed21-f043-4cac-8c76-371847fa1b07"}}]
+1588167813518	Marionette	DEBUG	0 -> [0,17,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"7872ed21-f043-4cac-8c76-371847fa1b07"},"mult ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1588167813537	Marionette	DEBUG	0 <- [1,17,null,{"value":null}]
+1588167813548	Marionette	DEBUG	0 -> [0,18,"WebDriver:FindElement",{"using":"css selector","value":"*[name='customerId']"}]
+1588167813554	Marionette	DEBUG	0 <- [1,18,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7872ed21-f043-4cac-8c76-371847fa1b07"}}]
+1588167813570	Marionette	DEBUG	0 -> [0,19,"WebDriver:FindElements",{"element":"7872ed21-f043-4cac-8c76-371847fa1b07","using":"xpath","value":".//option[normalize-space(.) = \"aa\"]"}]
+1588167813579	Marionette	DEBUG	0 <- [1,19,null,[{"element-6066-11e4-a52e-4f735466cecf":"4d0c9353-b6b3-4119-b229-d9991fcf52c3"}]]
+1588167813590	Marionette	DEBUG	0 -> [0,20,"WebDriver:IsElementSelected",{"id":"4d0c9353-b6b3-4119-b229-d9991fcf52c3"}]
+1588167813598	Marionette	DEBUG	0 <- [1,20,null,{"value":false}]
+1588167813609	Marionette	DEBUG	0 -> [0,21,"WebDriver:ElementClick",{"id":"4d0c9353-b6b3-4119-b229-d9991fcf52c3"}]
+1588167813842	Marionette	DEBUG	[20] Canceled page load listener because no navigation has been detected
+1588167813846	Marionette	DEBUG	0 <- [1,21,null,{"value":null}]
+1588167813869	Marionette	DEBUG	0 -> [0,22,"WebDriver:FindElement",{"using":"css selector","value":"*[name='name']"}]
+1588167813883	Marionette	DEBUG	0 <- [1,22,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7fc44a11-0104-4303-b625-bd3e2db05869"}}]
+1588167813896	Marionette	DEBUG	0 -> [0,23,"WebDriver:ElementSendKeys",{"id":"7fc44a11-0104-4303-b625-bd3e2db05869","text":"ss1","value":["s","s","1"]}]
+1588167813926	Marionette	DEBUG	0 <- [1,23,null,{"value":null}]
+1588167813937	Marionette	DEBUG	0 -> [0,24,"WebDriver:FindElement",{"using":"css selector","value":"*[name='createProjectSubmit']"}]
+1588167813943	Marionette	DEBUG	0 <- [1,24,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e15105d0-8357-40e2-8134-13190ac96d81"}}]
+1588167813958	Marionette	DEBUG	0 -> [0,25,"WebDriver:ElementClick",{"id":"e15105d0-8357-40e2-8134-13190ac96d81"}]
+1588167813980	Marionette	TRACE	[20] Received DOM event beforeunload for http://127.0.0.1:81/project/projectadd.do?resetForm=true&customerId=0
+1588167814341	Marionette	TRACE	[20] Received DOM event pagehide for http://127.0.0.1:81/project/projectadd.do?resetForm=true&customerId=0
+1588167814343	Marionette	TRACE	[20] Received DOM event unload for http://127.0.0.1:81/project/projectadd.do?resetForm=true&customerId=0
+1588167814566	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167814568	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167814650	Marionette	TRACE	[20] Received DOM event DOMContentLoaded for http://127.0.0.1:81/project/projectadd.do?rnd=1
+1588167814731	Marionette	TRACE	[20] Received DOM event pageshow for http://127.0.0.1:81/project/projectadd.do?rnd=1
+1588167814751	Marionette	DEBUG	0 <- [1,25,null,{"value":null}]
+1588167814769	Marionette	DEBUG	0 -> [0,26,"WebDriver:FindElement",{"using":"css selector","value":".successmsg"}]
+1588167844793	Marionette	DEBUG	0 <- [1,26,{"error":"no such element","message":"Unable to locate element: .successmsg","stacktrace":"WebDriverError@chrome://mari ... entError@chrome://marionette/content/error.js:387:5\nelement.find/</<@chrome://marionette/content/element.js:331:16\n"},null]
+1588167844967	Marionette	DEBUG	0 -> [0,27,"WebDriver:TakeScreenshot",{"full":false,"highlights":[],"id":null}]
+1588167845255	Marionette	DEBUG	0 <- [1,27,null,{"value":"iVBORw0KGgoAAAANSUhEUgAABVYAAAKOCAYAAABN80LeAAAgAElEQVR4nOy9a5Qb1Z326w98PWu9X88XDAkzCZmsicNx3kAwMBPWmgSS ... eaco46/pVSglVgCASrwNIJVpVSSimllDpbJVgFhkCwCiydYFUppZRSSqmzVYJVYAgEq8DSCVaVUkoppZQ6WyVYBYbg/wPxYT0kQ2srTAAAAABJRU5ErkJggg=="}]
+]]></system-err>
+  </testcase>
+  <testcase name="testCreateBilling_TC003" classname="com.ActiTime_BillingType_scripts.createBilling_TC003" time="33.804">
+    <failure message="Unable to locate element: .successmsg&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-32VMDLN&apos;, ip: &apos;192.168.129.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_66&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200313021419, moz:geckodriverVersion: 0.22.0, moz:headless: false, moz:processID: 7924, moz:profile: C:\Users\LENOVO\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: d279f592-8c90-42cb-8009-658248e68346&#10;*** Element info: {Using=class name, value=successmsg}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .successmsg
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-32VMDLN', ip: '192.168.129.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200313021419, moz:geckodriverVersion: 0.22.0, moz:headless: false, moz:processID: 7924, moz:profile: C:\Users\LENOVO\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d279f592-8c90-42cb-8009-658248e68346
+*** Element info: {Using=class name, value=successmsg}
+	at com.ActiTime_BillingType_scripts.createBilling_TC003.testCreateBilling_TC003(createBilling_TC003.java:30)
+]]></failure>
+    <system-out><![CDATA[04-29-2020 19:14:05 baseClass.java INFO  [main] ActiTime_utilities.baseClass 82 - *****Logout is successful*****
+04-29-2020 19:14:11 baseClass.java INFO  [main] ActiTime_utilities.baseClass 63 - ***** Browser is Closed*****
+04-29-2020 19:14:11 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:14:11 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+04-29-2020 19:14:11 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+04-29-2020 19:14:11 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+04-29-2020 19:14:11 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:14:11 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+04-29-2020 19:14:11 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+04-29-2020 19:14:11 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+04-29-2020 19:14:12 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+04-29-2020 19:14:23 baseClass.java INFO  [main] ActiTime_utilities.baseClass 49 - *****Firefox Browser is opened*****
+04-29-2020 19:14:27 baseClass.java INFO  [main] ActiTime_utilities.baseClass 74 - *****Login is Successful*****
+04-29-2020 19:14:29 createBilling_TC003.java INFO  [main] ActiTime_utilities.baseClass 17 - *****SettingsLink is clicked*****
+04-29-2020 19:14:29 createBilling_TC003.java INFO  [main] ActiTime_utilities.baseClass 21 - *****AddNewBillingTypeButton is clicked*****
+04-29-2020 19:14:29 createBilling_TC003.java INFO  [main] ActiTime_utilities.baseClass 25 - *****BillingTypeNameTextField is entered*****
+04-29-2020 19:14:30 createBilling_TC003.java INFO  [main] ActiTime_utilities.baseClass 28 - *****CreateBillingTypeButton is clicked*****
+]]></system-out>
+    <system-err><![CDATA[1588167845309	Marionette	DEBUG	0 -> [0,28,"WebDriver:FindElement",{"using":"css selector","value":".logoutImg"}]
+1588167845316	Marionette	DEBUG	0 <- [1,28,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"914d3983-f422-4ef2-a291-079e3391c6fd"}}]
+1588167845326	Marionette	DEBUG	0 -> [0,29,"WebDriver:ElementClick",{"id":"914d3983-f422-4ef2-a291-079e3391c6fd"}]
+1588167845593	Marionette	DEBUG	[20] Canceled page load listener because no navigation has been detected
+1588167845595	Marionette	DEBUG	0 <- [1,29,null,{"value":null}]
+1588167845603	Marionette	DEBUG	0 -> [0,30,"WebDriver:CloseWindow",{}]
+1588167845606	Marionette	DEBUG	0 <- [1,30,null,[]]
+1588167845610	Marionette	DEBUG	0 -> [0,31,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1588167845613	Marionette	INFO	Stopped listening on port 49831
+1588167846441	Marionette	TRACE	Received observer notification quit-application
+1588167846474	Marionette	DEBUG	0 <- [1,31,null,{"cause":"shutdown"}]
+1588167846615	Marionette	DEBUG	Closed connection 0
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1588167849150	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1588167849151	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1588167849151	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1588167849152	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1588167849152	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1588167849156	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1588167849158	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1588167849159	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1588167849160	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1588167849160	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1588167849172	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1588167849173	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1588167849174	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1588167849174	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1588167849176	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1588167849176	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1588167849177	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1588167849177	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1588167849177	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1588167849178	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1588167849179	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1588167849180	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1588167849180	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1588167849181	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1588167849181	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1588167849181	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1588167849182	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1588167849182	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1588167849183	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1588167849199	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1588167849204	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1588167849206	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1588167849207	Marionette	DEBUG	Marionette stopped listening
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1588167852980	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\LENOVO\\AppData\\Local\\Temp\\rust_mozprofile.qXFeCH9IyS2C"
+1588167854474	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1588167857785	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1588167857785	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1588167857786	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1588167857786	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1588167857940	Marionette	TRACE	Received observer notification profile-after-change
+1588167858200	Marionette	TRACE	Received observer notification toplevel-window-ready
+1588167858287	Marionette	TRACE	Received observer notification command-line-startup
+1588167858288	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1588167858391	Marionette	TRACE	Received observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1588167862664	Marionette	TRACE	Received observer notification marionette-startup-requested
+1588167862665	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1588167862775	Marionette	TRACE	All scripts recorded.
+1588167862776	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1588167862776	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1588167862777	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1588167862778	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1588167862779	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1588167862781	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1588167862782	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1588167862782	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1588167862783	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1588167862783	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1588167862784	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1588167862785	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1588167862786	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1588167862787	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1588167862788	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1588167862788	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1588167862789	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1588167862790	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1588167862791	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1588167862792	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1588167862793	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1588167862794	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1588167862795	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1588167862795	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1588167862795	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1588167862796	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1588167862796	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1588167862797	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1588167862798	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1588167862798	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1588167862799	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1588167862933	Marionette	INFO	Listening on port 49865
+1588167862934	Marionette	DEBUG	Marionette is listening
+1588167862977	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:49878
+1588167862982	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1588167862983	Marionette	WARN	TLS certificate errors will be ignored for this session
+1588167863059	Marionette	TRACE	[20] Frame script loaded
+1588167863066	Marionette	TRACE	[20] Frame script registered
+1588167863079	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"d279f592-8c90-42cb-8009-658248e68346","capabilities":{"browserName":"firefox","browserVersion":"75.0" ... ozprofile.qXFeCH9IyS2C","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+Apr 29, 2020 7:14:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1588167863106	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"http://127.0.0.1:81/login.do"}]
+1588167863124	Marionette	TRACE	[20] Received DOM event beforeunload for about:blank
+1588167863192	Marionette	TRACE	[20] Received DOM event pagehide for about:blank
+1588167865542	Marionette	TRACE	[20] Received DOM event DOMContentLoaded for http://127.0.0.1:81/login.do
+1588167865622	Marionette	TRACE	[20] Received DOM event pageshow for http://127.0.0.1:81/login.do
+1588167865642	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1588167865712	Marionette	DEBUG	0 -> [0,3,"WebDriver:SetTimeouts",{"implicit":30000}]
+1588167865714	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1588167865724	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElement",{"using":"css selector","value":"*[name='username']"}]
+1588167865736	Marionette	DEBUG	0 <- [1,4,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e47af6d3-c03a-4b86-8ebd-0d3e948bf5eb"}}]
+1588167865758	Marionette	DEBUG	0 -> [0,5,"WebDriver:ElementSendKeys",{"id":"e47af6d3-c03a-4b86-8ebd-0d3e948bf5eb","text":"admin","value":["a","d","m","i","n"]}]
+1588167865803	Marionette	DEBUG	0 <- [1,5,null,{"value":null}]
+1588167865814	Marionette	DEBUG	0 -> [0,6,"WebDriver:FindElement",{"using":"css selector","value":"*[name='pwd']"}]
+1588167865819	Marionette	DEBUG	0 <- [1,6,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"4edc768a-df61-4047-a3a0-3047916d2626"}}]
+1588167865831	Marionette	DEBUG	0 -> [0,7,"WebDriver:ElementSendKeys",{"id":"4edc768a-df61-4047-a3a0-3047916d2626","text":"manager","value":["m","a","n","a","g","e","r"]}]
+1588167865867	Marionette	DEBUG	0 <- [1,7,null,{"value":null}]
+1588167865876	Marionette	DEBUG	0 -> [0,8,"WebDriver:FindElement",{"using":"xpath","value":"//input[@type='submit']"}]
+1588167865883	Marionette	DEBUG	0 <- [1,8,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d60013f1-34cf-49ab-a9e9-bfa1bcc99b02"}}]
+1588167865893	Marionette	DEBUG	0 -> [0,9,"WebDriver:ElementClick",{"id":"d60013f1-34cf-49ab-a9e9-bfa1bcc99b02"}]
+1588167865974	Marionette	TRACE	[20] Received DOM event beforeunload for http://127.0.0.1:81/login.do
+1588167866191	Marionette	TRACE	[20] Received DOM event pagehide for http://127.0.0.1:81/login.do
+1588167866193	Marionette	TRACE	[20] Received DOM event unload for http://127.0.0.1:81/login.do
+1588167867155	Marionette	TRACE	[20] Received DOM event DOMContentLoaded for http://127.0.0.1:81/tasks/otasklist.do
+1588167867263	Marionette	TRACE	[20] Received DOM event pageshow for http://127.0.0.1:81/tasks/otasklist.do
+1588167867266	Marionette	DEBUG	0 <- [1,9,null,{"value":null}]
+1588167867278	Marionette	DEBUG	0 -> [0,10,"WebDriver:FindElement",{"using":"link text","value":"Settings"}]
+1588167867414	Marionette	DEBUG	0 <- [1,10,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"cdd4a9d2-c1cd-4ee8-92ba-5e43f74f1e91"}}]
+1588167867424	Marionette	DEBUG	0 -> [0,11,"WebDriver:ElementClick",{"id":"cdd4a9d2-c1cd-4ee8-92ba-5e43f74f1e91"}]
+1588167867463	Marionette	TRACE	[20] Received DOM event beforeunload for http://127.0.0.1:81/tasks/otasklist.do
+1588167868205	Marionette	TRACE	[20] Received DOM event pagehide for http://127.0.0.1:81/tasks/otasklist.do
+1588167868208	Marionette	TRACE	[20] Received DOM event unload for http://127.0.0.1:81/tasks/otasklist.do
+1588167868429	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167868430	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167868431	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167868437	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167869023	Marionette	TRACE	[20] Received DOM event DOMContentLoaded for http://127.0.0.1:81/administration/administration.do
+1588167869053	Marionette	TRACE	[20] Received DOM event pageshow for http://127.0.0.1:81/administration/administration.do
+1588167869054	Marionette	DEBUG	0 <- [1,11,null,{"value":null}]
+1588167869116	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElement",{"using":"xpath","value":"//input[@value='Add New Billing Type']"}]
+1588167869129	Marionette	DEBUG	0 <- [1,12,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"3d481f26-d904-47b6-b52c-eb32b2a20371"}}]
+1588167869144	Marionette	DEBUG	0 -> [0,13,"WebDriver:ElementClick",{"id":"3d481f26-d904-47b6-b52c-eb32b2a20371"}]
+1588167869173	Marionette	TRACE	[20] Received DOM event beforeunload for http://127.0.0.1:81/administration/administration.do
+1588167869303	Marionette	TRACE	[20] Received DOM event pagehide for http://127.0.0.1:81/administration/administration.do
+1588167869312	Marionette	TRACE	[20] Received DOM event unload for http://127.0.0.1:81/administration/administration.do
+1588167869654	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167869655	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167869808	Marionette	TRACE	[20] Received DOM event DOMContentLoaded for http://127.0.0.1:81/administration/btadd.do?resetForm=true
+1588167869854	Marionette	TRACE	[20] Received DOM event pageshow for http://127.0.0.1:81/administration/btadd.do?resetForm=true
+1588167869859	Marionette	DEBUG	0 <- [1,13,null,{"value":null}]
+1588167869898	Marionette	DEBUG	0 -> [0,14,"WebDriver:FindElement",{"using":"css selector","value":"*[name='name0']"}]
+1588167869912	Marionette	DEBUG	0 <- [1,14,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"15e0d8c4-11cb-4715-88b6-95ad39eb7728"}}]
+1588167869922	Marionette	DEBUG	0 -> [0,15,"WebDriver:ElementSendKeys",{"id":"15e0d8c4-11cb-4715-88b6-95ad39eb7728","text":"paid1","value":["p","a","i","d","1"]}]
+1588167869973	Marionette	DEBUG	0 <- [1,15,null,{"value":null}]
+1588167869987	Marionette	DEBUG	0 -> [0,16,"WebDriver:FindElement",{"using":"xpath","value":"//input[@value='Create Billing Type(s)']"}]
+1588167869994	Marionette	DEBUG	0 <- [1,16,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"8a215a77-238b-4724-b6ae-9a15ab7cccdc"}}]
+1588167870004	Marionette	DEBUG	0 -> [0,17,"WebDriver:ElementClick",{"id":"8a215a77-238b-4724-b6ae-9a15ab7cccdc"}]
+1588167870050	Marionette	TRACE	[20] Received DOM event beforeunload for http://127.0.0.1:81/administration/btadd.do?resetForm=true
+1588167870331	Marionette	TRACE	[20] Received DOM event pagehide for http://127.0.0.1:81/administration/btadd.do?resetForm=true
+1588167870334	Marionette	TRACE	[20] Received DOM event unload for http://127.0.0.1:81/administration/btadd.do?resetForm=true
+1588167870497	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167870499	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167870664	Marionette	TRACE	[20] Received DOM event DOMContentLoaded for http://127.0.0.1:81/administration/btadd.do?rnd=1
+1588167870698	Marionette	TRACE	[20] Received DOM event pageshow for http://127.0.0.1:81/administration/btadd.do?rnd=1
+1588167870708	Marionette	DEBUG	0 <- [1,17,null,{"value":null}]
+1588167870724	Marionette	DEBUG	0 -> [0,18,"WebDriver:FindElement",{"using":"css selector","value":".successmsg"}]
+1588167900743	Marionette	DEBUG	0 <- [1,18,{"error":"no such element","message":"Unable to locate element: .successmsg","stacktrace":"WebDriverError@chrome://mari ... entError@chrome://marionette/content/error.js:387:5\nelement.find/</<@chrome://marionette/content/element.js:331:16\n"},null]
+1588167900775	Marionette	DEBUG	0 -> [0,19,"WebDriver:TakeScreenshot",{"full":false,"highlights":[],"id":null}]
+1588167901046	Marionette	DEBUG	0 <- [1,19,null,{"value":"iVBORw0KGgoAAAANSUhEUgAABVYAAAKOCAYAAABN80LeAAAgAElEQVR4nOy9a3Qj1Z326w98PWu9X88XGhJmEjJZkw6HvIFwmwlrTQLJ ... YBAAAAAELCKgAAAABASFgFAAAAAAgJqwAAAAAAIWEVAAAAACAkrAIAAAAAhIRVAAAAAICQsAoAAAAAEBJWAQAAAABC/wNn0Lq8t8bUUwAAAABJRU5ErkJggg=="}]
+]]></system-err>
+  </testcase>
+  <testcase name="testCreateTasks_TC004" classname="com.ActiTime_Tasks_scripts.createTasks_TC004" time="33.55">
+    <failure message="Unable to locate element: *[name=&apos;year&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-32VMDLN&apos;, ip: &apos;192.168.129.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_66&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200313021419, moz:geckodriverVersion: 0.22.0, moz:headless: false, moz:processID: 5676, moz:profile: C:\Users\LENOVO\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 7539095d-a295-4476-8144-fc467e9c9e3b&#10;*** Element info: {Using=name, value=year}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: *[name='year']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-32VMDLN', ip: '192.168.129.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200313021419, moz:geckodriverVersion: 0.22.0, moz:headless: false, moz:processID: 5676, moz:profile: C:\Users\LENOVO\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7539095d-a295-4476-8144-fc467e9c9e3b
+*** Element info: {Using=name, value=year}
+	at com.ActiTime_Tasks_scripts.createTasks_TC004.testCreateTasks_TC004(createTasks_TC004.java:31)
+]]></failure>
+    <system-out><![CDATA[04-29-2020 19:15:01 baseClass.java INFO  [main] ActiTime_utilities.baseClass 82 - *****Logout is successful*****
+04-29-2020 19:15:06 baseClass.java INFO  [main] ActiTime_utilities.baseClass 63 - ***** Browser is Closed*****
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+04-29-2020 19:15:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 44 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+04-29-2020 19:15:18 baseClass.java INFO  [main] ActiTime_utilities.baseClass 49 - *****Firefox Browser is opened*****
+04-29-2020 19:15:24 baseClass.java INFO  [main] ActiTime_utilities.baseClass 74 - *****Login is Successful*****
+04-29-2020 19:15:26 createTasks_TC004.java INFO  [main] ActiTime_utilities.baseClass 16 - *****AddNewTasksButton is clicked******
+04-29-2020 19:15:26 createTasks_TC004.java INFO  [main] ActiTime_utilities.baseClass 20 - *****CustomerName is selected*****
+04-29-2020 19:15:26 createTasks_TC004.java INFO  [main] ActiTime_utilities.baseClass 23 - *****ProjectName is selected*****
+04-29-2020 19:15:27 createTasks_TC004.java INFO  [main] ActiTime_utilities.baseClass 26 - *****TasksName is entered*****
+04-29-2020 19:15:27 createTasks_TC004.java INFO  [main] ActiTime_utilities.baseClass 29 - *****DateIcon is selected*****
+]]></system-out>
+    <system-err><![CDATA[1588167901093	Marionette	DEBUG	0 -> [0,20,"WebDriver:FindElement",{"using":"css selector","value":".logoutImg"}]
+1588167901099	Marionette	DEBUG	0 <- [1,20,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"53a66bf7-a836-4c76-9e89-3ef70e93453a"}}]
+1588167901113	Marionette	DEBUG	0 -> [0,21,"WebDriver:ElementClick",{"id":"53a66bf7-a836-4c76-9e89-3ef70e93453a"}]
+1588167901358	Marionette	DEBUG	[20] Canceled page load listener because no navigation has been detected
+1588167901359	Marionette	DEBUG	0 <- [1,21,null,{"value":null}]
+1588167901368	Marionette	DEBUG	0 -> [0,22,"WebDriver:CloseWindow",{}]
+1588167901370	Marionette	DEBUG	0 <- [1,22,null,[]]
+1588167901372	Marionette	DEBUG	0 -> [0,23,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1588167901374	Marionette	INFO	Stopped listening on port 49865
+1588167902288	Marionette	TRACE	Received observer notification quit-application
+1588167902305	Marionette	DEBUG	0 <- [1,23,null,{"cause":"shutdown"}]
+1588167902424	Marionette	DEBUG	Closed connection 0
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1588167905880	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1588167905880	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1588167905880	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1588167905882	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1588167905882	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1588167905886	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1588167905886	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1588167905887	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1588167905888	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1588167905888	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1588167905888	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1588167905889	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1588167905889	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1588167905890	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1588167905896	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1588167905897	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1588167905897	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1588167905897	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1588167905898	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1588167905898	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1588167905903	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1588167905903	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1588167905904	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1588167905904	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+158816790590
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+4	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1588167905905	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1588167905905	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1588167905905	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1588167905905	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1588167905906	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1588167905907	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1588167905909	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1588167905911	Marionette	DEBUG	Marionette stopped listening
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1588167907594	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\LENOVO\\AppData\\Local\\Temp\\rust_mozprofile.RGFW1BFsWxIX"
+1588167909025	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1588167912401	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1588167912401	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1588167912402	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1588167912402	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1588167912553	Marionette	TRACE	Received observer notification profile-after-change
+1588167912866	Marionette	TRACE	Received observer notification toplevel-window-ready
+1588167912946	Marionette	TRACE	Received observer notification command-line-startup
+1588167912946	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1588167913045	Marionette	TRACE	Received observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1588167917976	Marionette	TRACE	Received observer notification marionette-startup-requested
+1588167917976	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1588167918048	Marionette	TRACE	All scripts recorded.
+1588167918048	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1588167918049	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1588167918049	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1588167918050	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1588167918052	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1588167918053	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1588167918054	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1588167918055	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1588167918055	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1588167918055	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1588167918056	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1588167918056	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1588167918057	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1588167918059	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1588167918060	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1588167918060	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1588167918061	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1588167918061	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1588167918062	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1588167918064	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1588167918065	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1588167918065	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1588167918066	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1588167918066	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1588167918066	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1588167918067	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1588167918067	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1588167918068	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1588167918069	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1588167918071	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1588167918073	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1588167918201	Marionette	INFO	Listening on port 49901
+1588167918201	Marionette	DEBUG	Marionette is listening
+1588167918690	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:49918
+1588167918693	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1588167918695	Marionette	WARN	TLS certificate errors will be ignored for this session
+1588167918765	Marionette	TRACE	[20] Frame script loaded
+1588167918772	Marionette	TRACE	[20] Frame script registered
+1588167918785	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"7539095d-a295-4476-8144-fc467e9c9e3b","capabilities":{"browserName":"firefox","browserVersion":"75.0" ... ozprofile.RGFW1BFsWxIX","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+Apr 29, 2020 7:15:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1588167918810	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"http://127.0.0.1:81/login.do"}]
+1588167918832	Marionette	TRACE	[20] Received DOM event beforeunload for about:blank
+1588167918900	Marionette	TRACE	[20] Received DOM event pagehide for about:blank
+1588167921546	Marionette	TRACE	[20] Received DOM event DOMContentLoaded for http://127.0.0.1:81/login.do
+1588167921586	Marionette	TRACE	[20] Received DOM event pageshow for http://127.0.0.1:81/login.do
+1588167921599	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1588167921759	Marionette	DEBUG	0 -> [0,3,"WebDriver:SetTimeouts",{"implicit":30000}]
+1588167921760	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1588167921802	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElement",{"using":"css selector","value":"*[name='username']"}]
+1588167921836	Marionette	DEBUG	0 <- [1,4,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"794b1282-9fed-42c9-86ad-9bb7f7391991"}}]
+1588167921876	Marionette	DEBUG	0 -> [0,5,"WebDriver:ElementSendKeys",{"id":"794b1282-9fed-42c9-86ad-9bb7f7391991","text":"admin","value":["a","d","m","i","n"]}]
+1588167921920	Marionette	DEBUG	0 <- [1,5,null,{"value":null}]
+1588167921932	Marionette	DEBUG	0 -> [0,6,"WebDriver:FindElement",{"using":"css selector","value":"*[name='pwd']"}]
+1588167921979	Marionette	DEBUG	0 <- [1,6,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"bad59b77-d51c-4fc2-b3a5-32b0f44a0312"}}]
+1588167922012	Marionette	DEBUG	0 -> [0,7,"WebDriver:ElementSendKeys",{"id":"bad59b77-d51c-4fc2-b3a5-32b0f44a0312","text":"manager","value":["m","a","n","a","g","e","r"]}]
+1588167922066	Marionette	DEBUG	0 <- [1,7,null,{"value":null}]
+1588167922088	Marionette	DEBUG	0 -> [0,8,"WebDriver:FindElement",{"using":"xpath","value":"//input[@type='submit']"}]
+1588167922095	Marionette	DEBUG	0 <- [1,8,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"9655d817-1a31-4a6b-b0dc-1abcd8ee6cdd"}}]
+1588167922102	Marionette	DEBUG	0 -> [0,9,"WebDriver:ElementClick",{"id":"9655d817-1a31-4a6b-b0dc-1abcd8ee6cdd"}]
+1588167922177	Marionette	TRACE	[20] Received DOM event beforeunload for http://127.0.0.1:81/login.do
+1588167922432	Marionette	TRACE	[20] Received DOM event pagehide for http://127.0.0.1:81/login.do
+1588167922438	Marionette	TRACE	[20] Received DOM event unload for http://127.0.0.1:81/login.do
+1588167924211	Marionette	TRACE	[20] Received DOM event DOMContentLoaded for http://127.0.0.1:81/tasks/otasklist.do
+1588167924520	Marionette	TRACE	[20] Received DOM event pageshow for http://127.0.0.1:81/tasks/otasklist.do
+1588167924522	Marionette	DEBUG	0 <- [1,9,null,{"value":null}]
+1588167924552	Marionette	DEBUG	0 -> [0,10,"WebDriver:FindElement",{"using":"xpath","value":"//input[@value='Add New Tasks']"}]
+1588167924569	Marionette	DEBUG	0 <- [1,10,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f9231c5e-b5ff-49d5-af83-7dc01921e1f7"}}]
+1588167924582	Marionette	DEBUG	0 -> [0,11,"WebDriver:ElementClick",{"id":"f9231c5e-b5ff-49d5-af83-7dc01921e1f7"}]
+1588167924615	Marionette	TRACE	[20] Received DOM event beforeunload for http://127.0.0.1:81/tasks/otasklist.do
+1588167925225	Marionette	TRACE	[20] Received DOM event pagehide for http://127.0.0.1:81/tasks/otasklist.do
+1588167925228	Marionette	TRACE	[20] Received DOM event unload for http://127.0.0.1:81/tasks/otasklist.do
+1588167925500	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167925501	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167925501	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167925502	Marionette	TRACE	[20] Received observer notification outer-window-destroyed
+1588167926022	Marionette	TRACE	[20] Received DOM event DOMContentLoaded for http://127.0.0.1:81/tasks/add_tasks.do?resetForm=true&origin=open_tasks&customerId=-1&projectId=-1
+1588167926116	Marionette	TRACE	[20] Received DOM event pageshow for http://127.0.0.1:81/tasks/add_tasks.do?resetForm=true&origin=open_tasks&customerId=-1&projectId=-1
+1588167926125	Marionette	DEBUG	0 <- [1,11,null,{"value":null}]
+1588167926175	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElement",{"using":"css selector","value":"*[name='customerId']"}]
+1588167926200	Marionette	DEBUG	0 <- [1,12,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"bf8640f1-03bf-4c29-bda7-a932eeba33e2"}}]
+1588167926212	Marionette	DEBUG	0 -> [0,13,"WebDriver:GetElementTagName",{"id":"bf8640f1-03bf-4c29-bda7-a932eeba33e2"}]
+1588167926224	Marionette	DEBUG	0 <- [1,13,null,{"value":"select"}]
+1588167926241	Marionette	DEBUG	0 -> [0,14,"WebDriver:FindElement",{"using":"css selector","value":"*[name='customerId']"}]
+1588167926250	Marionette	DEBUG	0 <- [1,14,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"bf8640f1-03bf-4c29-bda7-a932eeba33e2"}}]
+1588167926270	Marionette	DEBUG	0 -> [0,15,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"bf8640f1-03bf-4c29-bda7-a932eeba33e2"},"mult ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1588167926292	Marionette	DEBUG	0 <- [1,15,null,{"value":null}]
+1588167926299	Marionette	DEBUG	0 -> [0,16,"WebDriver:FindElement",{"using":"css selector","value":"*[name='customerId']"}]
+1588167926304	Marionette	DEBUG	0 <- [1,16,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"bf8640f1-03bf-4c29-bda7-a932eeba33e2"}}]
+1588167926315	Marionette	DEBUG	0 -> [0,17,"WebDriver:FindElements",{"element":"bf8640f1-03bf-4c29-bda7-a932eeba33e2","using":"xpath","value":".//option[normalize-space(.) = \"cc\"]"}]
+1588167926324	Marionette	DEBUG	0 <- [1,17,null,[{"element-6066-11e4-a52e-4f735466cecf":"b225468a-5b37-4f1b-8d3c-a119e3828ead"}]]
+1588167926330	Marionette	DEBUG	0 -> [0,18,"WebDriver:IsElementSelected",{"id":"b225468a-5b37-4f1b-8d3c-a119e3828ead"}]
+1588167926337	Marionette	DEBUG	0 <- [1,18,null,{"value":false}]
+1588167926347	Marionette	DEBUG	0 -> [0,19,"WebDriver:ElementClick",{"id":"b225468a-5b37-4f1b-8d3c-a119e3828ead"}]
+1588167926605	Marionette	DEBUG	[20] Canceled page load listener because no navigation has been detected
+1588167926606	Marionette	DEBUG	0 <- [1,19,null,{"value":null}]
+1588167926615	Marionette	DEBUG	0 -> [0,20,"WebDriver:FindElement",{"using":"css selector","value":"*[name='projectId']"}]
+1588167926620	Marionette	DEBUG	0 <- [1,20,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f7a21c51-e2b8-420f-a07a-e2288f30d3a2"}}]
+1588167926625	Marionette	DEBUG	0 -> [0,21,"WebDriver:GetElementTagName",{"id":"f7a21c51-e2b8-420f-a07a-e2288f30d3a2"}]
+1588167926629	Marionette	DEBUG	0 <- [1,21,null,{"value":"select"}]
+1588167926637	Marionette	DEBUG	0 -> [0,22,"WebDriver:FindElement",{"using":"css selector","value":"*[name='projectId']"}]
+1588167926641	Marionette	DEBUG	0 <- [1,22,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f7a21c51-e2b8-420f-a07a-e2288f30d3a2"}}]
+1588167926651	Marionette	DEBUG	0 -> [0,23,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"f7a21c51-e2b8-420f-a07a-e2288f30d3a2"},"mult ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1588167926667	Marionette	DEBUG	0 <- [1,23,null,{"value":null}]
+1588167926674	Marionette	DEBUG	0 -> [0,24,"WebDriver:FindElement",{"using":"css selector","value":"*[name='projectId']"}]
+1588167926679	Marionette	DEBUG	0 <- [1,24,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f7a21c51-e2b8-420f-a07a-e2288f30d3a2"}}]
+1588167926686	Marionette	DEBUG	0 -> [0,25,"WebDriver:FindElements",{"element":"f7a21c51-e2b8-420f-a07a-e2288f30d3a2","using":"xpath","value":".//option[normalize-space(.) = \"cc1\"]"}]
+1588167926693	Marionette	DEBUG	0 <- [1,25,null,[{"element-6066-11e4-a52e-4f735466cecf":"434b4341-eb0e-4e76-b1c5-5a79447e711c"}]]
+1588167926699	Marionette	DEBUG	0 -> [0,26,"WebDriver:IsElementSelected",{"id":"434b4341-eb0e-4e76-b1c5-5a79447e711c"}]
+1588167926706	Marionette	DEBUG	0 <- [1,26,null,{"value":false}]
+1588167926714	Marionette	DEBUG	0 -> [0,27,"WebDriver:ElementClick",{"id":"434b4341-eb0e-4e76-b1c5-5a79447e711c"}]
+1588167926936	Marionette	DEBUG	[20] Canceled page load listener because no navigation has been detected
+1588167926937	Marionette	DEBUG	0 <- [1,27,null,{"value":null}]
+1588167926946	Marionette	DEBUG	0 -> [0,28,"WebDriver:FindElement",{"using":"css selector","value":"*[name='task[0].name']"}]
+1588167926951	Marionette	DEBUG	0 <- [1,28,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"66f8d63e-eaf9-429a-9d97-ded74c2eb935"}}]
+1588167926959	Marionette	DEBUG	0 -> [0,29,"WebDriver:ElementSendKeys",{"id":"66f8d63e-eaf9-429a-9d97-ded74c2eb935","text":"proceessing","value":["p","r","o","c","e","e","s","s","i","n","g"]}]
+1588167927013	Marionette	DEBUG	0 <- [1,29,null,{"value":null}]
+1588167927028	Marionette	DEBUG	0 -> [0,30,"WebDriver:FindElement",{"using":"xpath","value":"//img[@alt='Click Here to Pick up the timestamp']"}]
+1588167927050	Marionette	DEBUG	0 <- [1,30,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e5108726-9e79-42e9-8016-08529ef3ec8e"}}]
+1588167927063	Marionette	DEBUG	0 -> [0,31,"WebDriver:ElementClick",{"id":"e5108726-9e79-42e9-8016-08529ef3ec8e"}]
+1588167927675	Marionette	DEBUG	[20] Canceled page load listener because no navigation has been detected
+1588167927676	Marionette	DEBUG	0 <- [1,31,null,{"value":null}]
+1588167927685	Marionette	DEBUG	0 -> [0,32,"WebDriver:FindElement",{"using":"css selector","value":"*[name='year']"}]
+1588167957706	Marionette	DEBUG	0 <- [1,32,{"error":"no such element","message":"Unable to locate element: *[name='year']","stacktrace":"WebDriverError@chrome://m ... entError@chrome://marionette/content/error.js:387:5\nelement.find/</<@chrome://marionette/content/element.js:331:16\n"},null]
+1588167957734	Marionette	DEBUG	0 -> [0,33,"WebDriver:TakeScreenshot",{"full":false,"highlights":[],"id":null}]
+1588167958048	Marionette	DEBUG	0 <- [1,33,null,{"value":"iVBORw0KGgoAAAANSUhEUgAABVYAAAKOCAYAAABN80LeAAAgAElEQVR4nOy9a5Qb1Z326w98PWu9X88XDAkzCZmsicNx3kAwMBPWmgSS ... hJsAo0zrsf3dU0TdM0TdM07Qg1gKNIsAo0zrsf3Y21+480TdM0TdM0TTsCTbAKHFWCVaBxBKuapmmapmmadnSaYBU4qv4/2xdr/+YM4FsAAAAASUVORK5CYII="}]
+]]></system-err>
+  </testcase>
+</testsuite>

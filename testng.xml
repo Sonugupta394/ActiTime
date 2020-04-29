@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name = "com.ActiTime_utilities.frameWorkListener"/>
+</listeners>
+ 
+<test thread-count="5" name="Test1">
+<classes>
+  <class name="com.ActiTime_Customer_scripts.createCustomer_TC001"/>
+</classes>
+</test> <!-- Test -->
+
+
+<test thread-count="5" name="Test2">
+<classes>
+  <class name="com.ActiTime_Project_scripts.createProject_TC002"/>
+</classes>
+</test> <!-- Test -->
+
+<test thread-count="5" name="Test3">
+<classes>
+  <class name="com.ActiTime_BillingType_scripts.createBilling_TC003"/>
+</classes>
+</test> <!-- Test --> 
+
+
+   <test thread-count="5" name="Test4">
+    <classes>
+      <class name="com.ActiTime_Tasks_scripts.createTasks_TC004"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ 
+</suite> <!-- Suite -->
